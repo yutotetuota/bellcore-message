@@ -3,9 +3,11 @@ coverage
 node_modules
 
 npm-debug.log
-bitcore-message.js
-bitcore-message.min.js
+vertcore-message.js
+vertcore-message.min.js
 tests.js
 
 report
 .DS_Store
+
+.vs
