@@ -11,11 +11,11 @@ var Message = require('../');
 
 describe('Message', function() {
 
-  var address = 'n1ZCYg9YXtB5XCZazLxSmPDa8iwJRZHhGx';
-  var badAddress = 'mmRcrB5fTwgxaFJmVLNtaG8SV454y1E3kC';
-  var privateKey = vertcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+  var address = 'Vg2sxR3t2dTMPHFmhHzNAg1HvDGvKbHxsg';
+  var badAddress = 'Vo8hYhuFfKDxgZv3RtGYT34C1JPoSfN5wP';
+  var privateKey = vertcore.PrivateKey.fromWIF('5JEdn2uaFsgetmzkTuEpHDFe51KnUvGPxfQwfYBVMoCUKQdKGLy');
   var text = 'hello, world';
-  var signatureString = 'H/DIn8uA1scAuKLlCx+/9LnAcJtwQQ0PmcPrJUq90aboLv3fH5fFvY+vmbfOSFEtGarznYli6ShPr9RXwY9UrIY=';
+  var signatureString = 'GwP7ft2Q0SZvgnxLV4FnSJO37qGaPku7WE27ppt5zDQQLWviNHMzqRIdqYGA7t2fD7rlsJOSogIxBXXtiXVpwOw=';
 
   var badSignatureString = 'H69qZ4mbZCcvXk7CWjptD5ypnYVLvQ3eMXLM8+1gX21SLH/GaFnAjQrDn37+TDw79i9zHhbiMMwhtvTwnPigZ6k=';
 
