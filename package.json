@@ -23,7 +23,7 @@
     "url": "https://github.com/Cubey2019/vertcore-message.git"
   },
   "dependencies": {
-    "vertcore-lib": "git://github.com/Cubey2019/vertcore-lib.git#vcoin"
+    "vertcore-lib": "git://github.com/Cubey2019/vertcore-lib.gi"
   },
   "devDependencies": {
     "vertcore-build": "git://github.com/Cubey2019/vertcore-build.git",
