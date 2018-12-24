@@ -23,7 +23,7 @@
     "url": "https://github.com/yutotetuota/bellcore-message.git"
   },
   "dependencies": {
-    "bitcore-lib": "git://github.com/yutotetuota/bellcore-lib.git"
+    "bellcore-lib": "git://github.com/yutotetuota/bellcore-lib.git"
   },
   "devDependencies": {
     "bitcore-build": "bitpay/bitcore-build",
