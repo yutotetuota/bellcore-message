@@ -1,7 +1,7 @@
 # Message Verification and Signing
-Vertcore implementation of [vertcoin message signing and verification](http://bitcoin.stackexchange.com/questions/3337/what-are-the-safety-guidelines-for-using-the-sign-message-feature/3339#3339). This is used to cryptographically prove that a certain message was signed by the holder of an address private key.
+Bellcore implementation of [bellcoin message signing and verification](http://bitcoin.stackexchange.com/questions/3337/what-are-the-safety-guidelines-for-using-the-sign-message-feature/3339#3339). This is used to cryptographically prove that a certain message was signed by the holder of an address private key.
 
-For more information refer to the [vertcore-message](https://github.com/vertcoin-project/vertcore-message) github repo.
+For more information refer to the [bellcore-message](https://github.com/yutotetuota/bellcore-message) github repo.
 
 ## Installation
 Message Verification and Signing is implemented as a separate module and you must add it to your dependencies:
@@ -9,13 +9,13 @@ Message Verification and Signing is implemented as a separate module and you mus
 For node projects:
 
 ```bash
-npm install vertcore-message --save
+npm install git://github.com/yutotetuota/bellcore-message.git --save
 ```
 
 For client-side projects:
 
 ```bash
-bower install vertcore-message --save
+bower install git://github.com/yutotetuota/bellcore-message.git --save
 ```
 
 ## Example

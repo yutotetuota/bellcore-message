@@ -1,7 +1,7 @@
 {
-  "name": "vertcore-message",
+  "name": "bellcore-message",
   "version": "1.0.3",
-  "description": "Vertcoin Messages for Vertcore",
+  "description": "Bellcoin Messages for Bellcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,22 +11,22 @@
     "build": "gulp"
   },
   "keywords": [
-    "vertcoin",
-    "vertcore",
-    "vtc",
+    "bellcoin",
+    "bellcore",
+    "bell",
     "satoshi",
     "message",
     "signing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vertcoin-project/vertcore-message.git"
+    "url": "https://github.com/yutotetuota/bellcore-message.git"
   },
   "dependencies": {
-    "vertcore-lib": "git://github.com/vertcoin-project/vertcore-lib.git"
+    "bitcore-lib": "git://github.com/yutoteuota/bellcore-lib.git"
   },
   "devDependencies": {
-    "vertcore-build": "git://github.com/vertcoin-project/vertcore-build.git",
+    "bitcore-build": "bitpay/bitcore-build",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"

@@ -4,18 +4,18 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var vertcore = require('vertcore-lib');
-var Address = vertcore.Address;
-var Signature = vertcore.crypto.Signature;
+var bitcore = require('bellcore-lib');
+var Address = bitcore.Address;
+var Signature = bitcore.crypto.Signature;
 var Message = require('../');
 
 describe('Message', function() {
 
-  var address = 'Vg2sxR3t2dTMPHFmhHzNAg1HvDGvKbHxsg';
-  var badAddress = 'Vo8hYhuFfKDxgZv3RtGYT34C1JPoSfN5wP';
-  var privateKey = vertcore.PrivateKey.fromWIF('5JEdn2uaFsgetmzkTuEpHDFe51KnUvGPxfQwfYBVMoCUKQdKGLy');
+  var address = 'n1ZCYg9YXtB5XCZazLxSmPDa8iwJRZHhGx';
+  var badAddress = 'mmRcrB5fTwgxaFJmVLNtaG8SV454y1E3kC';
+  var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
   var text = 'hello, world';
-  var signatureString = 'GwP7ft2Q0SZvgnxLV4FnSJO37qGaPku7WE27ppt5zDQQLWviNHMzqRIdqYGA7t2fD7rlsJOSogIxBXXtiXVpwOw=';
+  var signatureString = 'H/DIn8uA1scAuKLlCx+/9LnAcJtwQQ0PmcPrJUq90aboLv3fH5fFvY+vmbfOSFEtGarznYli6ShPr9RXwY9UrIY=';
 
   var badSignatureString = 'H69qZ4mbZCcvXk7CWjptD5ypnYVLvQ3eMXLM8+1gX21SLH/GaFnAjQrDn37+TDw79i9zHhbiMMwhtvTwnPigZ6k=';
 
@@ -101,7 +101,7 @@ describe('Message', function() {
   });
 
   it('will verify with an uncompressed pubkey', function() {
-    var privateKey = new vertcore.PrivateKey('5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss');
+    var privateKey = new bitcore.PrivateKey('5KYZdUEo39z3FPrtuX2QbbwGnNP5zTd7yyr2SC1j299sBCnWjss');
     var message = new Message('This is an example of a signed message.');
     var signature = message.sign(privateKey);
     var verified = message.verify(privateKey.toAddress(), signature);

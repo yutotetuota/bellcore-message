@@ -1,32 +1,26 @@
-<img src="http://vertcore.io/css/images/module-message.png" alt="vertcore message" height="35">
-# Vertcoin Message Verification and Signing for Vertcore
+# Bellcoin Message Verification and Signing for Bellcore
 
+bellcore-message adds support for verifying and signing bellcoin messages in [Node.js](http://nodejs.org/) and web browsers.
 
-[![NPM Package](https://img.shields.io/npm/v/vertcore-message.svg?style=flat-square)](https://www.npmjs.org/package/vertcore-message)
-[![Build Status](https://img.shields.io/travis/vertcoin-project/vertcore-message.svg?branch=master&style=flat-square)](https://travis-ci.org/vertcoin-project/vertcore-message)
-[![Coverage Status](https://img.shields.io/coveralls/vertcoin-project/vertcore-message.svg?style=flat-square)](https://coveralls.io/r/vertcoin-project/vertcore-message?branch=master)
-
-vertcore-message adds support for verifying and signing vertcoin messages in [Node.js](http://nodejs.org/) and web browsers.
-
-See [the main vertcore repo](https://github.com/vertcoin-project/vertcore) for more information.
+See [the main bellcore repo](https://github.com/yutotetuota/bellcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install vertcore-message
+npm install git://github.com/yutoteuota/bellcore-message.git
 ```
 
 ```sh
-bower install vertcore-message
+bower install git://github.com/yutoteuota/bellcore-message.git
 ```
 
 To sign a message:
 
 ```javascript
-var vertcore = require('vertcore-lib');
-var Message = require('vertcore-message');
+var bitcore = require('bellcore-lib');
+var Message = require('bellcore-message');
 
-var privateKey = vertcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
+var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
 ```
 
@@ -40,10 +34,10 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/vertcoin-project/vertcore/blob/master/CONTRIBUTING.md) on the main vertcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/yutotetuota/bellcore/blob/master/CONTRIBUTING.md) on the main bellcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/vertcoin-project/vertcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/yutotetuota/bellcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.

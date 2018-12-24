@@ -1,4 +1,4 @@
-var vertcore = require('vertcore-lib');
-vertcore.Message = require('./lib/message');
+var bitcore = require('bellcore-lib');
+bitcore.Message = require('./lib/message');
 
-module.exports = vertcore.Message;
+module.exports = bitcore.Message;

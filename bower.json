@@ -1,19 +1,19 @@
 {
-  "name": "vertcore-message",
-  "main": "./vertcore-message.min.js",
+  "name": "bellcore-message",
+  "main": "./bitcore-message.min.js",
   "version": "1.0.3",
-  "homepage": "https://github.com/vertcoin-project/vertcore-message",
+  "homepage": "https://github.com/yutotetuota/bellcore-message",
   "authors": [
     "BitPay"
   ],
-  "description": "Vertcoin Message Verification and Signing for Vertcore",
+  "description": "Bellcoin Message Verification and Signing for Bellcore",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "vertcoin",
-    "vertcore",
-    "vtc",
+    "bellcoin",
+    "bellcore",
+    "bell",
     "satoshi",
     "message",
     "signing"

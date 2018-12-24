@@ -3,8 +3,8 @@ coverage
 node_modules
 
 npm-debug.log
-vertcore-message.js
-vertcore-message.min.js
+bitcore-message.js
+bitcore-message.min.js
 tests.js
 
 report
